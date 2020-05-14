@@ -1,0 +1,15 @@
+{
+  "name": "telega_002",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jsindex.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node jsindex.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
