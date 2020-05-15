@@ -1,2 +1,12 @@
 Sochny1488bot
 1084830404:AAEszzF1u3d8675TSh9qoFKJ_zWdRVADxdk
+
+
+npm init
+node ./jsindex.js
+npm i node-telegram-bot-api
+npm i --save-dev nodemon
+// в JSONe
+"scripts": {
+    "start": "nodemon jsindex.js"
+  }
