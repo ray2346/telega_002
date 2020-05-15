@@ -6,9 +6,11 @@
   "dependencies": {
     "node-telegram-bot-api": "^0.50.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "scripts": {
-    "start": "node jsindex.js"
+    "start": "nodemon jsindex.js"
   },
   "author": "",
   "license": "ISC"
