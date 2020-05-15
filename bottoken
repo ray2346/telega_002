@@ -64,7 +64,7 @@ npm i --save-dev nodemon
       const chatdId = msg.chat.id
       bot.sendMessage(chatdId,'Keyboard',{
           reply_markup: {
-              reply_keyboard:inline_keyboard
+              inline_keyboard
           }
       })
   })

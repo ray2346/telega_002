@@ -1,5 +1,6 @@
 const BotTelegram = require('node-telegram-bot-api');
 const TOKEN = '1084830404:AAEszzF1u3d8675TSh9qoFKJ_zWdRVADxdk';
+const fs = require('fs');
 console.log('=======Красава БОТ Запущен======');
 const debag = require('./helpers');
 const bot = new BotTelegram(TOKEN,{
@@ -61,9 +62,7 @@ bot.onText(/\/start/,(msg,[source,match])=>{
     const chatdId = msg.chat.id
     bot.sendMessage(chatdId,'Keyboard',{
         reply_markup: {
-            reply_keyboard:inline_keyboard
+            inline_keyboard
         }
     })
 })
-
-
